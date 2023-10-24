@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import About from './components/About';
+import Search from './components/Search';
 
 
 export default function App() {
@@ -12,6 +13,9 @@ export default function App() {
     //   <StatusBar style="auto" />
     // </View>
 
-    <About/>
+    <View style={{marginVertical:40}}>
+      <Search/>
+
+    </View>
   )
 }
